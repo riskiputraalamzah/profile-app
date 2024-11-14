@@ -1,0 +1,8 @@
+runtime: python39 # Menggunakan runtime Python 3.9 untuk environment App Engine Standard
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+  - url: /styles\.css
+    static_files: styles.css
+    upload: styles.css
